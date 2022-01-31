@@ -69,7 +69,7 @@ nav {
   width: 80%;
   height: 90%;
   margin: auto;
-  margin-top: 15px;
+  margin-top: 50px;
 }
 .hero-text {
   flex-basis: 47%;
@@ -128,10 +128,10 @@ nav {
   background: white;
   display: inline-block;
 } */
-.hero-logo-area {
+.hero-logo-area img {
   position: absolute;
-  bottom: 20%;
-  padding-right: 20%;
+  bottom: 18%;
+  width: 95%;
 }
 .hero-logo {
   display: flex;
@@ -167,6 +167,9 @@ nav {
   left: 0;
   bottom: 50%;
 }
+.hero-rating:hover {
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.7);
+}
 .hero-rating-icon {
   color: #06c167;
   margin-left: 16px;
@@ -181,6 +184,9 @@ nav {
   position: absolute;
   right: 0;
   top: 30%;
+}
+.review:hover {
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.7);
 }
 .review img {
   display: inline-block;
@@ -537,6 +543,9 @@ nav {
 }
 .footer-icon i {
   margin-right: 10px;
+}
+.footer-icon i:hover {
+  color: #06c167;
 }
 .footer-about {
   flex: 1;
