@@ -226,6 +226,12 @@ nav {
   color: #06c167;
   border-radius: 5px;
 }
+.shipping .icon:hover,
+.payment .icon:hover,
+.promo .icon:hover,
+.support .icon:hover {
+  color: #1d1d1f;
+}
 .details {
   align-content: center;
 
@@ -463,8 +469,9 @@ nav {
   font-weight: 600;
   font-size: 20px;
   line-height: 24.2px;
-  color: #767675;
+  color: #7676759c;
   margin-right: 10px;
+  text-decoration: line-through;
 }
 .product-item .price {
   color: #06c167;
