@@ -574,6 +574,7 @@ nav {
   right: 10%;
   left: 15%;
   text-align: center;
+  height: 100%;
 }
 .ingrediant-content h2 {
   font-weight: 600;
@@ -581,6 +582,11 @@ nav {
   line-height: 72.61px;
   color: white;
   margin-bottom: 40px;
+}
+@media (max-width: 769px) {
+  .ingrediant-content {
+    top: 5%;
+  }
 }
 
 /* footer */
@@ -679,4 +685,21 @@ nav {
   line-height: 19.36px;
   color: #1d1d1f;
   margin-bottom: 10px;
+}
+@media (max-width: 769px) {
+  .footer {
+    flex-direction: column;
+  }
+  .footer-title {
+    margin-bottom: 40px;
+  }
+  .footer-about {
+    margin-bottom: 40px;
+  }
+  .footer-company {
+    margin-bottom: 40px;
+  }
+  .footer-getintouch {
+    margin-bottom: 40px;
+  }
 }
