@@ -232,6 +232,9 @@ nav {
   border-top: 1.5px solid #7070702c;
   border-bottom: 2px solid #7070702c;
 }
+.info-item {
+  display: flex;
+}
 .shipping,
 .payment,
 .promo,
@@ -266,6 +269,11 @@ nav {
   font-size: 14px;
   font-weight: 400;
   line-height: 16.94px;
+}
+@media (max-width: 769px) {
+  .info {
+    flex-direction: column;
+  }
 }
 
 /* benefit */
@@ -326,6 +334,24 @@ nav {
 .benefit-content ul li i {
   color: #06c167;
   margin-right: 16px;
+}
+@media (max-width: 769px) {
+  .benefit {
+    flex-direction: column;
+    margin: 0;
+    margin-top: 80px;
+    justify-content: center;
+  }
+  .benefit-img {
+    margin-bottom: 40px;
+  }
+  .benefit-img img {
+    width: 90%;
+  }
+  .benefit-content {
+    width: 90%;
+    margin-bottom: 80px;
+  }
 }
 
 /* star section */
@@ -392,6 +418,14 @@ nav {
   font-size: 15px;
   line-height: 18.15px;
   color: #1d1d1f;
+}
+@media (max-width: 769px) {
+  .star {
+    flex-direction: column;
+  }
+  .hero-btn {
+    margin-bottom: 40px;
+  }
 }
 
 /* feature section */
