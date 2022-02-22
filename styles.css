@@ -584,10 +584,17 @@ nav {
 @media (max-width: 769px) {
   .product {
     text-align: center;
+    justify-content: center;
+  }
+  .product h2 {
+    font-size: 35px;
+    line-height: 42.61px;
+    padding: 0 25%;
   }
   .product-section {
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
+    grid-template-columns: 1fr;
+    grid-gap: 30px;
+    width: 50%;
   }
 }
 
@@ -614,8 +621,13 @@ nav {
   margin-bottom: 40px;
 }
 @media (max-width: 769px) {
-  .ingrediant-content {
+  .ingrediant-content,
+  a {
     padding: 20% 10%;
+  }
+  .ingrediant-content a {
+    width: 80%;
+    padding: 6% 0;
   }
 }
 
